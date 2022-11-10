@@ -1,0 +1,99 @@
+html{
+    font-size: 67.2%;
+    color: black;
+
+}
+body{
+    font-size: 20px; /* 1rem=10px */
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    background-image: url(../IMG/cool-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    margin: 10rem auto 5rem 5rem;
+    font-size: 1,6rem;
+}
+.nav-bg{
+    border: 0.2rem solid black;
+    border-radius: 5rem;
+    width: 110rem;
+    margin: auto;
+    background-color: white;
+    /* position: fixed; */
+    
+}
+.navprincipal a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: x-large;
+    border: 0.2rem solid black ;
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    background-color: white;
+}
+.navprincipal a:hover{
+    color: white;
+    background-color: black;
+}
+.navprincipal{
+    display: flex;
+    justify-content: space-evenly;
+}
+main h2{
+    margin-top: 5rem;
+    border: 0.2rem solid black;
+    margin: 5rem 1rem;
+    background-color: white;
+    text-align: center;
+}
+.contenedorabout{
+    display: flex;
+    border: 0.2rem solid black;
+    width: 80rem;
+    text-align: center;
+    margin: 0 auto;
+    height: 30rem;
+    align-items: center;
+    background-color: white;
+}
+.contenedorabout img{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.tituloskills{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.cssimg, .javaimg{
+    margin-left: 1.5rem;
+}
+.tabla{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    justify-items: center;
+}
+.tabla p{
+    text-align: center;
+}
+.barra{
+    margin-left: 1rem;
+}
+.cssimg, .javaimg{
+    height: 200px;
+    width: 150px;
+}
+.htmlimg, .phytonimg{
+    height: 200px;
+    width: 200px;
+}
+/* .principal{
+    text-align: center;
+} */
+
