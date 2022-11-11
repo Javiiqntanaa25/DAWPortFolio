@@ -45,7 +45,6 @@ header{
     justify-content: space-evenly;
 }
 main h2{
-    margin-top: 5rem;
     border: 0.2rem solid black;
     margin: 5rem 1rem;
     background-color: white;
@@ -65,7 +64,7 @@ main h2{
     margin-left: 1rem;
     margin-right: 1rem;
 }
-.tituloskills{
+.tituloskills, .tituloprojects{
     text-align: center;
     font-size: 2rem;
     font-weight: 700;
@@ -93,6 +92,39 @@ main h2{
     height: 200px;
     width: 200px;
 }
+.tablap {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+}
+
+.bordep{
+    margin: 0rem 1rem;
+}
+.pagfl img, .pagqr img{
+height: 300px;
+}
+
+.bordep, .bordefl, .bordeqr{
+    border: 0.2rem solid black;
+    padding: 5rem 2rem;
+    background-color: whitesmoke;
+}
+.bordefl, .bordeqr{
+    border-radius: 5rem;
+}
+.tablap a{
+    text-decoration: none; 
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+
+.bordefl:hover, .bordeqr:hover, .bordefl p:hover, .bordeqr p:hover{
+    background-color: black;
+    color: white;
+}
+
 /* .principal{
     text-align: center;
 } */
