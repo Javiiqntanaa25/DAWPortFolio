@@ -64,7 +64,7 @@ main h2{
     margin-left: 1rem;
     margin-right: 1rem;
 }
-.tituloskills, .tituloprojects{
+.tituloskills, .tituloprojects, .titulocontacs{
     text-align: center;
     font-size: 2rem;
     font-weight: 700;
@@ -75,7 +75,6 @@ main h2{
 .tabla{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    
     justify-items: center;
 }
 .tabla p{
@@ -123,6 +122,34 @@ height: 300px;
 .bordefl:hover, .bordeqr:hover, .bordefl p:hover, .bordeqr p:hover{
     background-color: black;
     color: white;
+}
+.bordegmail, .bordegithub, .bordetwitter, .bordeinsta{
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.gmail, .instagram, .twitter, .github{
+    text-align: center;
+    padding-top: 13px;
+}
+.tablac{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    padding: 2rem;
+    
+}
+.bordeprinc{
+    border: 0.2rem solid black;
+    background-color: whitesmoke;
+    margin: auto 10px;
+    
+}
+footer{
+    font-size: small;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 /* .principal{
