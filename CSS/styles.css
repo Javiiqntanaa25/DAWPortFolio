@@ -51,7 +51,19 @@ header{
 }
 @media only screen and (max-width: 768px) {
     .navprincipal a{
-        width: 40rem;
+        width: 39rem;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .navprincipal a{
+        width: 30rem;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 3600px) {
+    .navprincipal a{
+        width: 20rem;
         text-align: center;
     }
 }
@@ -102,6 +114,12 @@ main h2{
         grid-template-columns: repeat(2,2fr);
     }
 }
+@media only screen and (max-width: 360px) {
+    .tabla{
+        display: grid;
+        grid-template-columns: repeat(1,4fr);
+    }
+}
 .tabla p{
     text-align: center;
 }
@@ -128,6 +146,38 @@ main h2{
         row-gap: 5rem;
     }
 }
+@media only screen and (max-width: 360px) {
+    .bordefl{
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        row-gap: 5rem;
+        width: 200px;
+        height: 272px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .pagfl img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .bordeqr{
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        row-gap: 5rem;
+        max-width: 200px;
+        max-height: 272px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .pagqr img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+
 .bordep{
     margin: 0rem 1rem;
 }
